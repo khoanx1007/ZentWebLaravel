@@ -1,0 +1,30 @@
+.action_link {
+    padding-top: 10px;
+    z-index: 10000;
+    padding-bottom: 0;
+    position: absolute;
+    top:35%;
+    left: 0;
+    right: 0;
+    display: block;
+}
+.action_link:hover {
+    display: block;
+}
+.action_link >ul {
+    display: flex;
+    justify-content: center;
+}
+.action_link >ul>li {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.action_link >ul>li:hover {
+    background-color: red;
+}
+.action_link >ul>li>a {
+    color:white !important;
+}
